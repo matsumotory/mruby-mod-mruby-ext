@@ -13,8 +13,9 @@ MRuby::Build.new do |conf|
 end
 ```
 ## example 
+
 - write mrblib by Ruby
-- 
+
 ```ruby
 class Apache
   class Request
