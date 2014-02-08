@@ -6,11 +6,10 @@ before_install:
     - sudo apt-get -qq update
 install:
     - sudo apt-get -qq install rake bison git gperf
-    - gem install rake
 before_script:
   - cd ../
   - git clone https://github.com/mruby/mruby.git
   - cd mruby
   - cp -fp ../mruby-mod-mruby-ext/.travis_build_config.rb build_config.rb
 script: 
-  - rake all test
+  - make all test
