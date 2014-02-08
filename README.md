@@ -13,6 +13,8 @@ MRuby::Build.new do |conf|
 end
 ```
 ## example 
+- write mrblib by Ruby
+- 
 ```ruby
 class Apache
   class Request
@@ -24,6 +26,7 @@ class Apache
   end
 end
 ```
+
 - proxy implementation by mod_mruby before link this mrbgem
 
 ```ruby
