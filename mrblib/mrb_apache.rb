@@ -7,8 +7,7 @@ class Apache
     end
   end
   class Headers_in
-    def user_agent
-      self["User-Agent"]
-    end
+    def user_agent; self["User-Agent"]; end
+    def referer; self["Referer"]; end
   end
 end
