@@ -10,4 +10,16 @@ class Apache
     def user_agent; self["User-Agent"]; end
     def referer; self["Referer"]; end
   end
+  class Filter
+    def body
+      data = self.flatten
+      self.cleanup
+      data
+    end
+    def body= output
+      self.insert_tail output
+      self.insert_eos
+    end
+    end
+  end
 end
