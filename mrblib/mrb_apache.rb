@@ -20,6 +20,5 @@ class Apache
       self.insert_tail output
       self.insert_eos
     end
-    end
   end
 end
