@@ -23,7 +23,7 @@ class Apache
   end
 end
 module Kernel
-  def load_server_class
+  def get_server_class
     Apache
   end
 end
