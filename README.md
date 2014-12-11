@@ -1,3 +1,4 @@
+# This is moved mod_mruby core.
 # mruby-mod-mruby-ext   [![Build Status](https://travis-ci.org/matsumoto-r/mruby-mod-mruby-ext.png?branch=master)](https://travis-ci.org/matsumoto-r/mruby-mod-mruby-ext)
 Extended Apache class for mod_mruby. You can exnted Apache class by mrbgem.
 
